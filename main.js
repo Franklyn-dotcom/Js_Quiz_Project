@@ -22,7 +22,7 @@ let percentScore =  document.getElementById('percent_score');
 let resultContainer = document.querySelector('.resultContainer');
 let shuffle;
 let indexQuestion = 0;
-let count = 10;
+let count = 15;
 let countDown; 
 let timer;
 
@@ -202,7 +202,7 @@ const get_count_down = () => {
 const nextQuestion = () => {
 
    if(indexQuestion < getQuiz_length){
-        count = 10;
+        count = 15;
         indexQuestion++;
         quiz_options.classList.remove('unclick');
         quiz_container.classList.remove('unclick')
